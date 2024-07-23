@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Apache.NMS.EMS.Tryout</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Apache.NMS" Version="2.1.0" />
+      <PackageReference Include="Apache.NMS.ActiveMQ" Version="2.1.0" />
+      <PackageReference Include="TIBCO.EMS" Version="1.0.1010" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="nmsprovider-activemq.config.xml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="nmsprovider-ems.config.xml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Apache.NMS.EMS\Apache.NMS.EMS.csproj" />
+    </ItemGroup>
+
+</Project>

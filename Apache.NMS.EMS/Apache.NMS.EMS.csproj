@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.0;net462;net7.0</TargetFrameworks>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Apache.NMS.EMS</Title>
+        <Authors>Federico Barresi</Authors>
+        <Description>Unofficial package for Apache.NMS.EMS </Description>
+        <PackageProjectUrl>https://github.com/fbarresi/activemq-nms-ems</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/fbarresi/activemq-nms-ems/blob/main/LICENSE.txt</PackageLicenseUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Apache.NMS" Version="2.1.0" />
+      <PackageReference Include="TIBCO.EMS" Version="1.0.1010" />
+    </ItemGroup>
+
+</Project>

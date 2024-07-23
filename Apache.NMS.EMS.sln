@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apache.NMS.EMS", "Apache.NMS.EMS\Apache.NMS.EMS.csproj", "{DF13F99F-C810-416E-AF92-2EA2F8A712E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apache.NMS.EMS.Example", "Apache.NMS.EMS.Example\Apache.NMS.EMS.Example.csproj", "{BA3EF605-0A1A-4C7F-AF03-36279A6393CF}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF13F99F-C810-416E-AF92-2EA2F8A712E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF13F99F-C810-416E-AF92-2EA2F8A712E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF13F99F-C810-416E-AF92-2EA2F8A712E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF13F99F-C810-416E-AF92-2EA2F8A712E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA3EF605-0A1A-4C7F-AF03-36279A6393CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3EF605-0A1A-4C7F-AF03-36279A6393CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3EF605-0A1A-4C7F-AF03-36279A6393CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3EF605-0A1A-4C7F-AF03-36279A6393CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

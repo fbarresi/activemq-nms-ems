@@ -25,9 +25,6 @@ jobs:
           source-url: https://nuget.pkg.github.com/fbarresi/index.json
         env:
           NUGET_AUTH_TOKEN: ${{ secrets.GPR_READ_TOKEN }}
-      - name: add nuget.org
-        run: |
-          dotnet nuget add source https://api.nuget.org/v3/index.json -n nuget.org
       - name: Install dependencies
         run: dotnet restore
       - name: Build

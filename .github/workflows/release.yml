@@ -31,4 +31,4 @@ jobs:
         run: dotnet build --configuration Release --no-restore /p:version=${{ env.version }}
       - name: NugetPublish
         if: github.event_name == 'push'
-        run: dotnet nuget push Apache.NMS.EMS\bin\Release\Apache.NMS.EMS.${{ env.version }}.nupkg -s https://api.nuget.org/v3/index.json -k ${{ secrets.NUGET_DEPLOY_KEY }}
+        run: dotnet nuget push Apache.NMS.EMS\bin\Release\Unofficial.Apache.NMS.EMS.${{ env.version }}.nupkg -s https://api.nuget.org/v3/index.json -k ${{ secrets.NUGET_DEPLOY_KEY }}

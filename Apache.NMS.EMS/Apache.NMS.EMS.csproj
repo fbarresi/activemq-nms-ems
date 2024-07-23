@@ -8,6 +8,7 @@
         <Description>Unofficial package for Apache.NMS.EMS </Description>
         <PackageProjectUrl>https://github.com/fbarresi/activemq-nms-ems</PackageProjectUrl>
         <PackageLicenseUrl>https://github.com/fbarresi/activemq-nms-ems/blob/main/LICENSE.txt</PackageLicenseUrl>
+        <PackageId>Unofficial.Apache.NMS.EMS</PackageId>
     </PropertyGroup>
 
     <ItemGroup>

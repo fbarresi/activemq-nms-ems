@@ -16,5 +16,5 @@
 * limitations under the License.
 -->
 <configuration>
-    <provider assembly="Apache.NMS.EMS.dll" classFactory="Apache.NMS.EMS.ConnectionFactory"/>
+    <provider assembly="Unofficial.Apache.NMS.EMS.dll" classFactory="Apache.NMS.EMS.ConnectionFactory"/>
 </configuration>

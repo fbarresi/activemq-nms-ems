@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apache.NMS.EMS", "Apache.NM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apache.NMS.EMS.Example", "Apache.NMS.EMS.Example\Apache.NMS.EMS.Example.csproj", "{BA3EF605-0A1A-4C7F-AF03-36279A6393CF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{0B99C3E2-1637-4D04-833B-ABE3B017062A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		.github\workflows\release.yml = .github\workflows\release.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True

@@ -1,0 +1,31 @@
+﻿name: Release
+
+on:
+  push:
+    branches:
+      - main
+      - prerelease
+  pull_request:
+    branches: [ main ]
+
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+    env:
+      version: 1.0.${{ github.run_number }}${{ github.ref != 'refs/heads/master' && '-prerelease' || '' }}
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 8.0.x
+      - name: Install dependencies
+        run: dotnet restore
+      - name: Build
+        run: dotnet build --configuration Release --no-restore /p:version=${{ env.version }}
+      - name: NugetPublish
+        if: github.event_name == 'push'
+        run: dotnet nuget push Apache.NMS.EMS\bin\Release\Apache.NMS.EMS.${{ env.version }}.nupkg -s https://api.nuget.org/v3/index.json -k ${{ secrets.NUGET_DEPLOY_KEY }}

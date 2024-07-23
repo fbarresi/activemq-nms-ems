@@ -9,6 +9,7 @@
         <PackageProjectUrl>https://github.com/fbarresi/activemq-nms-ems</PackageProjectUrl>
         <PackageLicenseUrl>https://github.com/fbarresi/activemq-nms-ems/blob/main/LICENSE.txt</PackageLicenseUrl>
         <PackageId>Unofficial.Apache.NMS.EMS</PackageId>
+        <PackageIconUrl>https://activemq.apache.org/assets/img/activemq_logo_icon_border.png</PackageIconUrl>
     </PropertyGroup>
 
     <ItemGroup>

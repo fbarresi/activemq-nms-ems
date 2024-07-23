@@ -1,4 +1,4 @@
-# Apache.NMS.EMS 
+# ![logo](https://cdn.icon-icons.com/icons2/2699/PNG/512/apache_activemq_logo_icon_170578.png)  Apache.NMS.EMS 
 
 [![Release](https://github.com/fbarresi/activemq-nms-ems/actions/workflows/release.yml/badge.svg)](https://github.com/fbarresi/activemq-nms-ems/actions/workflows/release.yml)
 [![NuGet Version](https://img.shields.io/nuget/vpre/Unofficial.Apache.NMS.EMS)](https://www.nuget.org/packages/Unofficial.Apache.NMS.EMS/)

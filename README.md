@@ -5,22 +5,22 @@
 
 Apache NMS for Tibco EMS Client Library
 
-For more information see http://activemq.apache.org/nms
+More information can be found at [http://activemq.apache.org/nms](http://activemq.apache.org/nms)
 
-This is an unofficial fork for the original library updated to latest deps and framework.
+This is an unofficial fork of the original library, updated to the latest deps and framework.
 
-Disclaimer: this library does not implement all functionality of Apache.NMS for the Tibco EMS yet.
+Disclaimer: this library does not yet implement all functionality of Apache.NMS for the Tibco EMS.
 Check out the code for details. 
-The most method are supported, the default example from the apache page and example included demonstrate the correct function. 
+Most methods are supported, the default example from the apache page and included example demonstrate the correct function. 
 
 ### Requirements
 
-This project required your own version of the TIBCO.EMS Library.
+This project requires your own version of the TIBCO.EMS Library.
 This library cannot be distributed together with this implementation. 
-The project itself leverage on a private nuget package for resolving and restoring the library. 
-In order to build in your own you will need to provide such a nuget package named `TIBCO.EMS` in the version `1.0.1010`.
+The project itself relies on a private nuget package for resolving and restoring the library. 
+To build in your own you will need to provide such a nuget package named `TIBCO.EMS` in the version `1.0.1010`.
 
-You can create your nuget package putting this nuspec file `TIBCO.EMS.nuspec` near to the library:
+You can create your nuget package by placing this nuspec file `TIBCO.EMS.nuspec` near to the library:
 
 ````xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -43,6 +43,6 @@ and execute `nuget pack TIBCO.EMS.nuspec` and
 
 ## Don't forget
 
-- Star this repo
-- Open an issue if something is missing
+- Star this repo ⭐
+- Open an issue if something is missing or have a bug
 - Contribute with pull-requests

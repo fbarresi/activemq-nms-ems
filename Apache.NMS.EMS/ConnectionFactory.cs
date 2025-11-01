@@ -43,7 +43,7 @@ namespace Apache.NMS.EMS
 		private int reconnAttemptDelay = 30000;          // 30 seconds
 		private int reconnAttemptTimeout = 5000;         // 5 seconds
 
-		private IRedeliveryPolicy redeliveryPolicy = new RedeliveryPolicy();
+		private IRedeliveryPolicy redeliveryPolicy = new DefaultRedeliveryPolicy();
 
 		public ConnectionFactory()
 		{

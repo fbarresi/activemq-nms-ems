@@ -99,6 +99,8 @@ namespace Apache.NMS.EMS
 		/// </summary>
 		public event Apache.NMS.MessageListener Listener;
 
+		public event AsyncMessageListener AsyncListener;
+
 		/// <summary>
 		/// Closes the message consumer. 
 		/// </summary>

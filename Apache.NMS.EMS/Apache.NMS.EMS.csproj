@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.0;net462;net7.0</TargetFrameworks>
+        <TargetFrameworks>netstandard2.0;net462;net8.0</TargetFrameworks>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>Apache.NMS.EMS</Title>
         <Authors>Federico Barresi</Authors>
@@ -13,7 +13,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Apache.NMS" Version="2.0.0" />
+      <PackageReference Include="Apache.NMS" Version="2.1.0" />
       <PackageReference Include="TIBCO.EMS" Version="1.0.1010" />
     </ItemGroup>
 

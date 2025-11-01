@@ -2,14 +2,14 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>Apache.NMS.EMS.Tryout</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Apache.NMS" Version="2.0.0" />
+      <PackageReference Include="Apache.NMS" Version="2.1.0" />
       <PackageReference Include="TIBCO.EMS" Version="1.0.1010" />
     </ItemGroup>
 

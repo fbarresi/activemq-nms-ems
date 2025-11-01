@@ -10,14 +10,10 @@
 
     <ItemGroup>
       <PackageReference Include="Apache.NMS" Version="2.0.0" />
-      <PackageReference Include="Apache.NMS.ActiveMQ" Version="2.0.0" />
       <PackageReference Include="TIBCO.EMS" Version="1.0.1010" />
     </ItemGroup>
 
     <ItemGroup>
-      <None Update="nmsprovider-activemq.config.xml">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
       <None Update="nmsprovider-ems.config.xml">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
